@@ -1,0 +1,121 @@
+.bmi-calculator {
+    width: 70%;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: auto;
+    margin-bottom: 5px !important;
+}
+.bmi-calculator .label {
+    font-size: 22px;
+}
+.bmi-calculator .inputs {
+    display: flex;
+}
+.bmi-calculator .inputs input {
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 0px !important;
+    border: 1px solid #ccc;
+    font-size: 22px;
+}
+.bmi-calculator .inputs input:focus {
+    box-shadow: none; outline: none;
+}
+.bmi-calculator .units {
+    color: #757575;
+    margin-top: 5px;
+}
+.bmi-calculator .units label {
+    margin-right: 5px;
+    background-color: #eee;
+    padding: 0 10px;
+}
+.bmi-calculator .unit {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0 10px;
+    color: #757575;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-size: 22px;
+}
+
+.bmi-calculator .inputs input:focus {
+    box-shadow: none; outline: none;
+}
+.bmi-calculator .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bmi-calculator button, .bmi-calculator button:focus {
+    font-size: 20px;
+    white-space: nowrap;
+    border-radius: 0px !important;
+    border: 1px solid #072f51;
+    background-color: #1e64a2;
+    color: #fff;
+    display: inline-block;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.bmi-calculator button:hover {
+    background-color: #2b6cb0;
+}
+.bmi-calculator button.black-btn {
+    background-color: #333;
+    margin-right: 5px;
+}
+
+.bmi-calculator .height {
+    display: none;
+}
+
+.bmi-calculator .result {
+    display: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.bmi-calculator .result p {
+    text-align: center !important;
+}
+
+.bmi-calculator .result .underweight {
+    background-color: yellow;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bmi-calculator .result .healthy {
+    background-color: green;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bmi-calculator .result .overweight {
+    background-color: orange;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bmi-calculator .result .obesity {
+    background-color: red;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 750px) {
+    .bmi-calculator {
+        width: 100%;
+    }
+}
